@@ -16,7 +16,7 @@ set hlsearch
 exec "nohlsearch"
 set guifont=Fira\ Code:h12
 
-noremap U 5k
-noremap E 5j
+noremap K 5k
+noremap J 5j
 
 

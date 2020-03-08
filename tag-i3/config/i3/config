@@ -22,8 +22,8 @@ exec_always --no-startup-id "$HOME/.config/polybar/launch.sh"
 
 
 #xmodmap
-exec_always --no-startup-id xmodmap -e "clear lock"
-exec_always --no-startup-id xmodmap -e "keycode 66 = Escape NoSymbol Escape"
+exec_always sleep 1 ;--no-startup-id xmodmap -e "clear lock"
+exec_always slepp 1 ;--no-startup-id xmodmap -e "keycode 66 = Escape NoSymbol Escape"
 
 #fcitx
 exec_always --no-startup-id fcitx
