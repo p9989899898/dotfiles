@@ -22,8 +22,11 @@ exec_always --no-startup-id "$HOME/.config/polybar/launch.sh"
 
 
 #xmodmap
-exec_always sleep 1 ;--no-startup-id xmodmap -e "clear lock"
-exec_always slepp 1 ;--no-startup-id xmodmap -e "keycode 66 = Escape NoSymbol Escape"
+exec_always --no-startup-id xmodmap -e "clear lock"
+exec_always --no-startup-id xmodmap -e "keycode 66 = Escape NoSymbol Escape"
+
+
+exec_always --no-startup-id xmodmap ~/.xmodmap
 
 #fcitx
 exec_always --no-startup-id fcitx
@@ -228,9 +231,9 @@ mode "$mode_sound" {
 #        status_command i3status
 #}
 
-client.urgent   		#4a4b4c #4a4b4c #fdfdfd  #fbfbfb   #4a4c4b
-client.placeholder     		#000000 #0c0c0c #ffffff  #000000   #0c0c0c
-client.background       	#111111
+#client.urgent   		#4a4b4c #4a4b4c #fdfdfd  #fbfbfb   #4a4c4b
+#client.placeholder     		#000000 #0c0c0c #ffffff  #000000   #0c0c0c
+#client.background       	#111111
 # Gaps
 #15 30
 #gaps inner 25
