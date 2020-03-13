@@ -15,7 +15,7 @@ new_float normal
 exec_always --no-startup-id compton -b 
 
 #feh
-exec_always --no-startup-id feh --bg-scale "Pictures/002.jpg"
+exec_always --no-startup-id feh --bg-scale "Pictures/003.png"
 
 #polybar
 exec_always --no-startup-id "$HOME/.config/polybar/launch.sh"
