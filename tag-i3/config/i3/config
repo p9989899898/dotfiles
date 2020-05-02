@@ -51,7 +51,7 @@ bindsym $mod+Return exec --no-startup-id alacritty
 bindsym $mod+F3 exec --no-startup-id pcmanfm
 
 # Firefox
-bindsym $mod+c exec --no-startup-id  firefox
+bindsym $mod+c exec --no-startup-id  google-chrome-stable
 
 # kill focused window
 bindsym $mod+Shift+q kill
